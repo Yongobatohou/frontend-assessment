@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(70,101,127);
+    color: white;
+    text-align: center;
+    nav{
+        text-align: end;
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+    }
+    input{
+        margin-bottom: 20px;
+        width: 300px;
+        padding: 5px;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-radius: 5px;
+    }
+}
+
+main{
+    background-color: rgb(216, 205, 205);
+    padding: 20px;
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+        margin: 0px 20px 20px;
+        div{
+            background-color: white;
+            padding: 40px 60px;
+            #img2{
+                width: 80px;
+                height: 80px;
+            }
+            #img1{
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                z-index: 1;
+                margin-top: -40px;
+                margin-left: 160px;
+            }
+            h2{
+                color: #f5a819;
+                font-size: 30px;
+            }
+        }
+    }
+}
